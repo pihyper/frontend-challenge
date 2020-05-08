@@ -19,4 +19,4 @@ export default function ListingCard ({ cabins, country, guests, imageUrl, length
       </div>
     </div>
   )
-}
+} // We can also use React.memo() for this component for scalability/large-data-sets
